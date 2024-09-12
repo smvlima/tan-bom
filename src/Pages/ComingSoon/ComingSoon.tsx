@@ -5,20 +5,42 @@ export const ComingSoon: React.FC<{}> = () => {
     <div className="container">
       <div className="highlight" />
       <div className="logo">
-        <img src={"../../assets/logo.png"} alt="tan bom logo" height="100%" />
+        <img
+          src={"../../logo.svg"}
+          alt="tan bom logo"
+          height="100%"
+          className="logo-image"
+        />
       </div>
-
+      <div className="cta-button">
+        <a
+          href="https://www.instagram.com/tanbom.pt"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="tan bom instagram"
+        >
+          <img
+            typeof="svg"
+            src={"../../assets/instagram.svg"}
+            alt="chase your best mood"
+            width="50"
+            height="50"
+            className="instagram"
+          />
+        </a>
+      </div>
       <div className="content">
         <img
-          src={"../../assets/chase_your_best_mood.png"}
+          src={"../../assets/chase_your_best_mood.svg"}
           alt="chase your best mood"
           width="100%"
           className="content-chase_best_mood"
         />
         <img
-          src={"../../assets/coming_soon.png"}
+          src={"../../assets/coming_soon.svg"}
           alt="coming soon"
           width="100%"
+          className="content-coming_soon"
         />
       </div>
     </div>

@@ -5,6 +5,18 @@
   width: inherit;
   position: relative;
 }
+.cta-button {
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+.instagram {
+  display: text;
+  filter: drop-shadow(1px 1px 3px #76554e9c);
+}
+
 .logo {
   z-index: 2;
   min-width: fit-content;
@@ -20,6 +32,9 @@
   align-content: center;
   padding: 10px;
   border-radius: 0 10vh 10vh 0;
+}
+.logo-image {
+  display: block;
 }
 .highlight {
   position: fixed;
@@ -48,6 +63,11 @@
 .content-chase_best_mood {
   display: block;
   padding: 0 10vw 0;
+  fill-opacity: 0;
+}
+
+.content-coming_soon {
+  fill-opacity: 0;
 }
 
 @media only screen and (max-width: 1200px) {
