@@ -90,6 +90,13 @@
     width: 40vw;
     height: 14vh;
   }
+  .highlight {
+    background-position: 65%;
+    height: 70vh;
+  }
+  .content {
+    padding-top: 30vh;
+  }
 }
 
 @media only screen and (max-width: 300px) {
