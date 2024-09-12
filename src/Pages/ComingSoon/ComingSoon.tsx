@@ -25,7 +25,6 @@ export const ComingSoon: React.FC<{}> = () => {
             alt="chase your best mood"
             width="50"
             height="50"
-            className="instagram"
           />
         </a>
       </div>
