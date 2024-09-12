@@ -13,6 +13,7 @@ export const ComingSoon: React.FC<{}> = () => {
           src={"../../assets/chase_your_best_mood.png"}
           alt="chase your best mood"
           width="100%"
+          className="content-chase_best_mood"
         />
         <img
           src={"../../assets/coming_soon.png"}
