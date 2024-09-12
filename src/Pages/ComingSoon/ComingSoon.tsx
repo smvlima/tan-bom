@@ -5,12 +5,7 @@ export const ComingSoon: React.FC<{}> = () => {
     <div className="container">
       <div className="highlight" />
       <div className="logo">
-        <img
-          src={"../../assets/logo.png"}
-          alt="tan bom logo"
-          width="166px"
-          height="166px"
-        />
+        <img src={"../../assets/logo.png"} alt="tan bom logo" height="100%" />
       </div>
 
       <div className="content">
