@@ -4,29 +4,31 @@ export const ComingSoon: React.FC<{}> = () => {
   return (
     <div className="container">
       <div className="highlight" />
-      <div className="logo">
-        <img
-          src={"../../logo.svg"}
-          alt="tan bom logo"
-          height="100%"
-          className="logo-image"
-        />
-      </div>
-      <div className="cta-button">
-        <a
-          href="https://www.instagram.com/tanbom.pt"
-          target="_blank"
-          rel="noreferrer"
-          aria-label="tan bom instagram"
-        >
+      <div className="top-banner">
+        <div className="logo">
           <img
-            typeof="svg"
-            src={"../../assets/instagram.svg"}
-            alt="chase your best mood"
-            width="50"
-            height="50"
+            src={"../../logo.svg"}
+            alt="tan bom logo"
+            height="100%"
+            className="logo-image"
           />
-        </a>
+        </div>
+        <div className="cta-button">
+          <a
+            href="https://www.instagram.com/tanbom.pt"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="tan bom instagram"
+          >
+            <img
+              typeof="svg"
+              src={"../../assets/instagram.svg"}
+              alt="instagram icon"
+              width="50"
+              height="50"
+            />
+          </a>
+        </div>
       </div>
       <div className="content">
         <img
